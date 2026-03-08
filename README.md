@@ -9,7 +9,7 @@ A **Cursor-first project template** for solo devs: rules, memory, status, and sc
 ## Use this template
 
 1. Click **Use this template** → **Create a new repository** (or clone and push to your own repo).
-2. Fill in the placeholders below and in `memory/00-project.md`, `docs/DONE.md`.
+2. Fill in the placeholders in `memory/00-project.md` and `docs/DONE.md`. For your project README, use the structure in the section below (expand) or copy from [docs/PROJECT_README_TEMPLATE.md](docs/PROJECT_README_TEMPLATE.md).
 3. Run `scripts/setup.bat` and start building.
 
 Philosophy and research-backed practices: **[FRAMEWORK.md](FRAMEWORK.md)**.
@@ -49,7 +49,8 @@ MIT — see [LICENSE](LICENSE). Use it, fork it, adapt it.
 
 ---
 
-# Your project (fill in after “Use this template”)
+<details>
+<summary><strong>📄 Project README structure</strong> (for after you use the template — expand to copy)</summary>
 
 # [PROJECT_NAME]
 
@@ -93,3 +94,5 @@ See `VERSION`. Full history in `CHANGELOG.md`.
 
 ## Status
 See `STATUS.md`.
+
+</details>

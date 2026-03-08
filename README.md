@@ -1,6 +1,6 @@
 # Cursor Solo Dev Template
 
-> I'm just the pilot of this rocket — or F-16, or whatever. Claude is my assistant; Cursor is my execution and ops guy. Done by Cursor, for all Cursors around the globe. Let's go.
+> I'm just the pilot of this rocket 🚀 — Claude's my co-pilot, Cursor's the one actually flying it ✈️. Built with Cursor, for every Cursor out there. Let's go! 🎯
 
 A **Cursor-first project template** for solo devs: rules, memory, status, and scope (DONE) so you can ship or kill without scope creep. Use it for every new project.
 

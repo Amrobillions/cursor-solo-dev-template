@@ -1,0 +1,20 @@
+---
+description: Task workflow, commit discipline, and build order rules
+alwaysApply: false
+globs: []
+---
+# Workflow Rules
+## Before writing any code
+1. State the single task in one sentence
+2. Is this CORE (without it the app breaks) or FEATURE (nice to have)?
+3. CORE → do now. FEATURE → add to TASKS.md, do later.
+## Build order (never skip steps)
+1. Data model → 2. Core logic → 3. Terminal test → 4. API → 5. UI → 6. Features
+## Commit format
+- feat(scope): description
+- fix(scope): description  
+- refactor(scope): description
+- docs: description
+- chore: description
+## Commit timing: after every working unit, not end of day
+## After every task: update STATUS.md (NOW/NEXT/BLOCKED)

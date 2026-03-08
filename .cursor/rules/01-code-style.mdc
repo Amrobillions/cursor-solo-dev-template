@@ -1,0 +1,19 @@
+---
+description: Code style. Apply when writing or reviewing any code file.
+alwaysApply: true
+---
+# Code Style Rules
+## Hard limits
+- Max file size: 300 lines → split if exceeded
+- Max function size: 30 lines → split if exceeded
+- One function = one job only
+## Naming
+- Meaningful names only. No: x, tmp, foo, data, stuff
+- Comment WHY not WHAT
+## Error handling
+- Every external call (API, DB, file I/O) → must have error handling
+- Never swallow errors silently
+## Forbidden
+- Hardcoded credentials or secrets
+- print/console.log in production paths (use logging)
+- TODO comments in code (use TASKS.md instead)

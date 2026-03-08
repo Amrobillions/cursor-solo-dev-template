@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.pyc
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+.env.local
+.env.development.local
+
+# Logs
+logs/*.log
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (NEVER commit these)
+*.key
+*.pem
+*.p12
+secrets/
+.env
+.env.*
+!.env.example
+
+# Cursor personal rules only (shared rules ARE committed)
+.cursor/rules/personal.mdc
+
+# IDEs
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,13 @@
+---
+description: Absolute prohibitions. Read this before every response. Never violate.
+alwaysApply: true
+---
+# NEVER DO — Zero Exceptions
+- Create new files unless explicitly asked by user
+- Delete any file without user confirmation
+- Change architecture without user approval
+- Add new dependencies without asking
+- Handle >1 task in the same session
+- Edit docs/DONE.md — it is permanently frozen
+- Skip updating STATUS.md after task completion
+- Hardcode secrets, API keys, or passwords anywhere

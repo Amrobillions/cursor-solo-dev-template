@@ -1,0 +1,16 @@
+---
+description: Memory protocol. READ memory files before every task. No exceptions.
+alwaysApply: true
+---
+# Memory Protocol
+## START of every session: READ IN ORDER
+1. STATUS.md — where are we right now?
+2. memory/00-project.md — what is this project?
+3. memory/01-architecture.md — how is it built?
+## BEFORE any architectural change: CHECK
+- memory/02-decisions.md — why things are the way they are
+## AFTER completing any task: UPDATE
+- STATUS.md (exactly 3 lines: NOW / NEXT / BLOCKED)
+- memory/02-decisions.md (only if architectural decision was made)
+## SESSION LOG (only when user asks):
+- memory/sessions/YYYY-MM-DD-title.md

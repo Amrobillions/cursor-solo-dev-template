@@ -1,0 +1,17 @@
+---
+description: Core project identity. Always read this first. Never skip.
+alwaysApply: true
+---
+# Project: [PROJECT_NAME]
+## What it does
+[ONE LINE — I'm building X for Y so they can Z]
+## Stack
+[FILL: Language / Framework / DB / UI]
+## Critical paths
+- Core logic: src/core/
+- Entry point: src/main.[ext]
+- Tests: tests/
+## Language rules
+- Typed parameters always
+- snake_case (Python) / camelCase (JS/TS)
+- No magic numbers — use named constants
